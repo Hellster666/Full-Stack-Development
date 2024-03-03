@@ -1,0 +1,171 @@
+/* CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(245, 236, 220, 0.798);
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.head h1 {
+    width: 100%;
+    font-family: gilroy;
+    font-size: 120px;
+    position: absolute;
+    left: 4%;
+    top: 5%;
+    line-height: 120px;
+    letter-spacing: -3px;
+}
+
+.head h3 {
+    font-size: 36px;
+    position: absolute;
+    left: 4%;
+    top: 35%;
+    font-weight: 540;
+}
+
+.Menu {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 4%;
+    right: 2%;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 12px 20px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+}
+
+.scroll {
+    font-size: 30px;
+    position: absolute;
+    top: 35%;
+    right: 3%;
+    font-weight: 540;
+}
+
+img {
+    height: 660px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 45%;
+    right: 0%;
+}
+
+.about h1 {
+    position: absolute;
+    top: 130%;
+    left: 3%;
+    font-size: 85px;
+    width: 60%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-right: 2px solid black;
+    letter-spacing: -2px;
+    line-height: 90px;
+}
+
+.me h2 {
+    position: absolute;
+    top: 130%;
+    right: 22%;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.logo {
+    color: white;
+    position: absolute;
+    top: 180%;
+    right: 23%;
+    font-size: 26px;
+}
+
+.logo i {
+    background-color: black;
+    border-radius: 50px;
+    padding: 6px;
+    margin-right: 2px;
+}
+
+.work {
+    position: absolute;
+    top: 190%;
+    display: flex;
+    left: 3%;
+    font-size: 30px;
+    padding: 20px;
+    width: 100%;
+    height: 63%;
+    border-top: 2px solid black;
+
+}
+
+.work1 {
+
+    width: 35%;
+    height: 100%;
+    border-right: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.work2 {
+    width: 70%;
+    height: 100%;
+    padding: 0px 60px;
+    font-size: 10px;
+
+}
+
+.work2-part {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.work2-part:nth-child(1) {
+    border-bottom: 2px solid black;
+}
+
+.work2-part .elem:nth-child(1) {
+    border-right: 2px solid black;
+    padding-right: 50px;
+}
+
+.work2-part .elem:nth-child(2) {
+    padding: 20px 50px;
+    padding-left: 50px;
+}
+
+.work2-part .elem h4 {
+    font-size: 45px;
+    padding: 20px;
+    line-height: 40px;
+    font-weight: 550;
+}
+
+.work2-part .elem p {
+    line-height: 20px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid black;
+    position: absolute;
+    top: 253%;
+}
